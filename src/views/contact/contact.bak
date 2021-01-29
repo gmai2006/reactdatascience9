@@ -1,0 +1,161 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import ReCAPTCHA from "react-google-recaptcha";
+
+
+function onChange(value) {
+  console.log("Captcha value:", value);
+}
+
+function onLoadRecaptcha() {
+  if (this.captchaDemo) {
+      this.captchaDemo.reset();
+  }
+}
+
+
+export const About = props => {
+  return (
+    <React.Fragment>
+      <div className="divide20" />
+      <div className="container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item active" aria-current="page">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              Contact Us
+            </li>
+          </ol>
+        </nav>
+
+        <div className="row mb0">
+          <div className="col-md-6">
+            <h2>Address</h2>
+            <address>
+              22722 29th Drive SE, Suite 100
+              <br />
+              Bothell, Washington, 98021 <br />
+              <div className="divide20" />
+              <h4 className="text-uppercase">Email</h4>
+                    
+              <a href="mailto:paul.mai@datascience9.com">
+                paul.mai@datascience9.com
+              </a>
+              <br />
+              <h4 className="text-uppercase">Phone</h4>
+              <a href="tel:+14257706899">(425) 770-6899</a>
+            </address>
+          </div>
+
+          <div className="col-md-6">
+            <h2>Questions</h2>
+            <p>
+              If interested in our products please let us know. We will get back
+              as soon as we received your email.
+            </p>
+            <div className="smart-wrap">
+              <div className="smart-forms datascience9-smart-container">
+                <form method="post" action="#" >
+                  <div className="datascience9-form-body">
+                    <div className="section">
+                      <label className="field prepend-icon">
+                        <input
+                          type="text"
+                          name="sendername"
+                          id="sendername"
+                          className="gui-input"
+                          placeholder="Enter name"
+                        />
+                        <span className="field-icon">
+                          <i className="fa fa-user" />
+                        </span>
+                      </label>
+                    </div>
+
+                    <div className="section">
+                      <label className="field prepend-icon">
+                        <input
+                          type="email"
+                          name="emailaddress"
+                          id="emailaddress"
+                          className="gui-input"
+                          placeholder="Email address"
+                        />
+                        <span className="field-icon">
+                          <i className="fa fa-envelope" />
+                        </span>
+                      </label>
+                    </div>
+
+                    <div className="section">
+                      <label className="field prepend-icon">
+                        <input
+                          type="text"
+                          name="sendersubject"
+                          id="sendersubject"
+                          className="gui-input"
+                          placeholder="Enter subject"
+                        />
+                        <span className="field-icon">
+                          <i className="fa fa-lightbulb-o" />
+                        </span>
+                      </label>
+                    </div>
+
+                    <div className="section">
+                      <label className="field prepend-icon">
+                        <textarea
+                          className="gui-textarea"
+                          id="sendermessage"
+                          name="sendermessage"
+                          placeholder="Enter message"
+                        />
+                        <span className="field-icon">
+                          <i className="fa fa-comments" />
+                        </span>
+                        <span className="input-hint">
+                          <strong>Hint:</strong> Please enter between 80 - 300
+                          characters.
+                        </span>
+                      </label>
+                    </div>
+
+                    <div className="section">
+                    <ReCAPTCHA
+                      
+                      size="normal"
+                      data-theme="dark"            
+                      render="explicit"
+                        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                        onChange={onChange}
+                        
+                      />
+                    </div>
+
+                    <div className="result" />
+                  </div>
+                  <div className="form-footer">
+                    <button
+                      type="submit"
+                      data-btntext-sending="Sending..."
+                      className="button btn btn-primary"
+                    >
+                      Submit
+                    </button>
+                    <button type="reset" className="button">
+                      Reset
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  );
+};
+
+export default About;
