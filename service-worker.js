@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/datascience9/precache-manifest.396ddfdc43fdce36f48ebc350858df07.js"
+  "/reactdatascience9/precache-manifest.62fac26f7c0a8c3c429d6d7bf5a2df52.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/datascience9/index.html", {
+workbox.routing.registerNavigationRoute("/reactdatascience9/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
