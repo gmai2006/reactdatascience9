@@ -1,11 +1,11 @@
 {
-  "main.js": "/reactdatascience9/static/js/main.70a4267d.chunk.js",
-  "main.js.map": "/reactdatascience9/static/js/main.70a4267d.chunk.js.map",
-  "runtime~main.js": "/reactdatascience9/static/js/runtime~main.d167cb4e.js",
-  "runtime~main.js.map": "/reactdatascience9/static/js/runtime~main.d167cb4e.js.map",
-  "static/js/2.ea4343e9.chunk.js": "/reactdatascience9/static/js/2.ea4343e9.chunk.js",
-  "static/js/2.ea4343e9.chunk.js.map": "/reactdatascience9/static/js/2.ea4343e9.chunk.js.map",
-  "index.html": "/reactdatascience9/index.html",
-  "precache-manifest.13a08f887800832f87b30c985e3f67be.js": "/reactdatascience9/precache-manifest.13a08f887800832f87b30c985e3f67be.js",
-  "service-worker.js": "/reactdatascience9/service-worker.js"
+  "main.js": "/static/js/main.4b7f8443.chunk.js",
+  "main.js.map": "/static/js/main.4b7f8443.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.ea4343e9.chunk.js": "/static/js/2.ea4343e9.chunk.js",
+  "static/js/2.ea4343e9.chunk.js.map": "/static/js/2.ea4343e9.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.6142677beb00fd4c9bd67fe1099e2a9c.js": "/precache-manifest.6142677beb00fd4c9bd67fe1099e2a9c.js",
+  "service-worker.js": "/service-worker.js"
 }
