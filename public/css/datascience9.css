@@ -94,7 +94,9 @@ color: inherit;
 }
 
 .datascience9-nav-link {
-    padding-top: .7rem;
+    padding-top: .4rem;
+    padding-left: .4rem;
+    display: inline;
 }
 
 .datascience9-nav-font > li > .nav-link {

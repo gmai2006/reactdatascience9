@@ -62,7 +62,7 @@ export var NavBar = function NavBar(props) {
                     ),
                     React.createElement(
                         'li',
-                        { className: 'dropdown' },
+                        { className: 'dropdown datascience9-nav-link' },
                         React.createElement(
                             'a',
                             { href: '#', className: 'dropdown-toggle', 'data-toggle': 'dropdown' },
@@ -139,10 +139,10 @@ export var NavBar = function NavBar(props) {
                     ),
                     React.createElement(
                         'li',
-                        { className: 'dropdown' },
+                        { className: 'dropdown datascience9-nav-link' },
                         React.createElement(
                             'a',
-                            { href: '#', className: 'dropdown-toggle', 'data-toggle': 'dropdown' },
+                            { href: '#', className: 'dropdown-toggle datascience9-nav-link', 'data-toggle': 'dropdown' },
                             'Products',
                             React.createElement('i', { className: 'fa fa-angle-down' })
                         ),

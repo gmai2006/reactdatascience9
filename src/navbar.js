@@ -34,7 +34,7 @@ export const NavBar = props => {
               </li>
 
               <li className="nav-item dropdown">
-                <Link className="nav-link  dropdown-toggle"
+                <Link className="nav-link datascience9-nav-link dropdown-toggle"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -84,7 +84,7 @@ export const NavBar = props => {
 
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link  dropdown-toggle"
+                  className="nav-link  dropdown-toggle datascience9-nav-link"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"

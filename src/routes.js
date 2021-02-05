@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import NavBar from './navbar';
+import Footer from './footer';
 import Home from './views/home/home';
 import About from './views/about/about';
 import { DataMining } from './views/datamining';
@@ -15,6 +16,7 @@ import DocumentConversion from './views/documentconversion/documentconversion';
 import { DataTransformation } from './views/datatransformation';
 import {Contact} from './views/contact';
 import Portfolio from './views/portfolio/portfolio';
+import { Datascience9Editor } from './components/editor/editor';
 export const Routes = () => {
     return (
         <div>
@@ -37,7 +39,9 @@ export const Routes = () => {
                 <Route exact path='/datatransformation' component={DataTransformation} />
                 <Route exact path='/portfolio' component={Portfolio} />
                 <Route exact path='/contact' component={Contact} />
+                <Route exact path='/editor' component={Datascience9Editor} />
             </Switch>
+            <Footer/>
         </div>
     );
 }

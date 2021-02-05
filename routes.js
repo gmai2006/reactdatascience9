@@ -12,13 +12,13 @@ export var Routes = function Routes() {
         React.createElement(
             Switch,
             null,
-            React.createElement(Route, { exact: true, path: '/Home', component: Home }),
+            React.createElement(Route, { exact: true, path: 'Home', component: Home }),
             React.createElement(
                 Route,
                 { exact: true, path: '/' },
-                React.createElement(Redirect, { to: '/Home' })
+                React.createElement(Redirect, { to: 'Home' })
             ),
-            React.createElement(Route, { exact: true, path: '/About', component: About })
+            React.createElement(Route, { exact: true, path: 'About', component: About })
         )
     );
 };
