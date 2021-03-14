@@ -1,0 +1,13 @@
+#topHeader {
+    background-color: #FBFBFB;
+    margin-bottom: 15px;
+}
+
+#topHeader .header-link a:hover {
+    color: #3483DE;
+}
+
+.header-text {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}

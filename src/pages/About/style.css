@@ -1,0 +1,16 @@
+.circle-icon {
+    color: #3483DE;
+}
+
+.about-header {
+    font-size: 19.5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text {
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    line-height: 1.8em;
+    margin: 0px 0px 16px;
+}

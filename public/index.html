@@ -1,100 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Datascience 9</title>    
-        <!-- Plugins CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" type="text/css" rel="stylesheet">
-        <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="site.webmanifest">
-        
-        <link href="css/smart-forms.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/datascience9.css" rel="stylesheet">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <body>
-      
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-        <!--top bar-->
-        <div class='top-bar clearfix light'>
-            <div class='container'>
-                <div class='float-sm-right'>
-                    <ul class='list-inline mb0'>
-                        <li class='list-inline-item'>
-                            <a href="#" class="social-icon-sm si-gray si-gray-round si-facebook">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-                        <li class='list-inline-item'>
-                            <a href="#" class="social-icon-sm si-gray si-gray-round si-twitter">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class='float-sm-left'>
-                    <ul class='list-inline mb0 links'>
-                        <li class='list-inline-item'><a><i class="fa fa-phone"></i> Any questions? Call us: <span
-                            class="colored-text">(425) 770-6899</span> </a></li>
-                        <li class='list-inline-item'><a><i
-                            class="fa fa-envelope"></i> Mail us: <span class="colored-text">paul.mai@datascience9.com</span>
-                          </a></li>
-                       
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--end top bar-->
-
-        <!-- Site Overlay -->
-        <!-- <div class="site-overlay"></div> -->
-
-        <div id="navbar"></div>
-
-       <div id='footer'></div>
-        <div class="footer-bottomAlt">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="clearfix">
-                            <a href="#" class="social-icon-sm si-dark si-facebook si-dark-round">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="social-icon-sm si-dark si-twitter si-dark-round">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            
-                            <a href="#" class="social-icon-sm si-dark si-linkedin si-dark-round">
-                                <i class="fab fa-linkedin-in"></i>
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>  
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <span>© Copyright 2021. All Right Reserved</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--back to top-->
-        <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="fa fa-arrow-up"></i></a>
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="js/plugins/plugins.js"></script>  
-        <script src="js/assan.custom.js"></script> 
-
-    </body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>

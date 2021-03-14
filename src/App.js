@@ -1,0 +1,42 @@
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './components/Header';
+import NavigationBar from './components/Navbar';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About/About';
+import DataMining from './pages/Services/DataMining';
+import DataMigration from './pages/Services/DataMigration';
+import DataTransformation from './pages/Services/DataTransformation';
+import DocumentConversion from './pages/Services/DocumentConversion';
+import WebDevelopment from './pages/Services/WebDevelopment';
+import Enterprise from './pages/Services/Enterprise';
+import Microservices from './pages/Products/Microservices';
+
+const App = () => {
+  return (
+    <React.Fragment>
+      <Router>
+        <Header />
+        <NavigationBar />
+          <Switch>
+            <Route path='/home' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/services/datamining' component={DataMining} />
+            <Route path='/services/datamigration' component={DataMigration} />
+            <Route path='/services/datatransformation' component={DataTransformation} />
+            <Route path='/services/documentconversion' component={DocumentConversion} />
+            <Route path='/services/webdevelopment' component={WebDevelopment} />
+            <Route path='/services/enterprise' component={Enterprise} />
+            <Route path='/products/microservices' component={Microservices} />
+          </Switch>
+          <Footer />
+      </Router>
+    </React.Fragment>
+  )
+}
+
+export default App;
