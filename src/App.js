@@ -15,6 +15,7 @@ import DocumentConversion from './pages/Services/DocumentConversion';
 import WebDevelopment from './pages/Services/WebDevelopment';
 import Enterprise from './pages/Services/Enterprise';
 import Microservices from './pages/Products/Microservices';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
             <Route path='/services/webdevelopment' component={WebDevelopment} />
             <Route path='/services/enterprise' component={Enterprise} />
             <Route path='/products/microservices' component={Microservices} />
+            <Route path='/portfolio' component={Portfolio} />
           </Switch>
           <Footer />
       </Router>
