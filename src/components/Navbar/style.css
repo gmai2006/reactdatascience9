@@ -17,6 +17,11 @@
     text-decoration: none;
 }
 
+#navigationBar .nav a:focus {
+    color: #3483DE;
+    text-decoration: none;
+}
+
 #dropdown-basic {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;

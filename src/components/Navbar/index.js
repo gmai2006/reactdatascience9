@@ -31,9 +31,7 @@ const NavigationBar = () => {
                                 color: '#3483DE'
                             }} onClick={() => setExpanded(false)}>About</Nav.Link>
                             <Dropdown id='dropdownButton' className='mt-1'>
-                                <Dropdown.Toggle variant='link' className='shadow-none' id='dropdown-basic' activeStyle={{ 
-                                    color: '#3483DE'
-                                }}>
+                                <Dropdown.Toggle variant='link' className='shadow-none' id='dropdown-basic'>
                                     Services
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
