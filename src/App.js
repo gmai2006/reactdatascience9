@@ -16,6 +16,7 @@ import WebDevelopment from './pages/Services/WebDevelopment';
 import Enterprise from './pages/Services/Enterprise';
 import Microservices from './pages/Products/Microservices';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Contact from './pages/Contact/Contact';
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
             <Route path='/services/enterprise' component={Enterprise} />
             <Route path='/products/microservices' component={Microservices} />
             <Route path='/portfolio' component={Portfolio} />
+            <Route path='/contact' component={Contact} />
           </Switch>
           <Footer />
       </Router>

@@ -1,0 +1,12 @@
+.contact-card {
+    border: none;
+}
+
+.location-image {
+    height: 60%;
+    width: 60%;
+}
+
+.contact-text {
+    font-size: 17px;
+}

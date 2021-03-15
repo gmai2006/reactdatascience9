@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, CardDeck, Card, Image} from 'react-bootstrap';
+import {Container, CardDeck, Card} from 'react-bootstrap';
 import './style.css';
 
 import tomcatImage from '../../assets/images/portfolio/tomcat.png';
