@@ -18,6 +18,7 @@ import Microservices from './pages/Products/Microservices';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import Blogs from './pages/Blogs/Blogs';
+import EditorTable from './pages/Editor/Editor';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
             <Route path='/portfolio' component={Portfolio} />
             <Route path='/contact' component={Contact} />
             <Route path='/blogs' component={Blogs} />
+            <Route path='/editor' component={EditorTable} />
           </Switch>
           <Footer />
       </Router>

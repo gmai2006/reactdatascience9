@@ -192,6 +192,9 @@ const NavigationBar = () => {
                             <Nav.Link as={NavLink} to='/blogs' activeStyle={{
                                 color: '#3483DE'
                             }} onClick={() => setExpanded(false)}>Blogs</Nav.Link>
+                            <Nav.Link as={NavLink} to='/editor' activeStyle={{
+                                color: '#3483DE'
+                            }} onClick={() => setExpanded(false)}>Editor</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
