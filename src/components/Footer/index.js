@@ -46,15 +46,7 @@ const Footer = () => {
             <div className='sticky-footer'>
                 <Container>
                     <Row>
-                        <Button className='shadow-none' href='#' variant='link'>
-                            <FontAwesomeIcon icon={faFacebookF} className='footer-link-facebook'/>
-                        </Button>
-                        <Button className='shadow-none' href='#' target='_blank' variant='link'>
-                            <FontAwesomeIcon icon={faTwitter} className='footer-link-twitter'/>
-                        </Button>
-                        <Button className='shadow-none' href='#' target='_blank' variant='link'>
-                            <FontAwesomeIcon icon={faLinkedinIn} className='footer-link-linkedin'/>
-                        </Button>
+                       
                         <div className='copyright ml-auto'>
                             <span>© Copyright 2021 DataScience9 All Rights Reserved</span>
                         </div>

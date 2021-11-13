@@ -49,7 +49,7 @@ const DocumentConversion = () => {
                             <Card.Header className='services-header'>Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
-                                <ListGroup.Item>SpringTemplate 4</ListGroup.Item>
+                                <ListGroup.Item>StringTemplate 4</ListGroup.Item>
                                 <ListGroup.Item>PDFBox</ListGroup.Item>
                                 <ListGroup.Item>iText 2.7.1</ListGroup.Item>
                                 <ListGroup.Item>Jsoup</ListGroup.Item>

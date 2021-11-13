@@ -5,4 +5,10 @@
 
 .portfolio-card {
     border: none;
+    margin-right: 25px;
+}
+
+.card-body {
+    padding-top: 15px;
+    padding-left: 0px;
 }

@@ -34,7 +34,7 @@ const DataMigration = () => {
                             <Card.Header className='services-header'>Technologies</Card.Header>
                             <ListGroup variant='flush' className='services-list-group'>
                                 <ListGroup.Item>ANTLR 4</ListGroup.Item>
-                                <ListGroup.Item>SpringTemplate</ListGroup.Item>
+                                <ListGroup.Item>StringTemplate</ListGroup.Item>
                                 <ListGroup.Item>Apache Open JPA</ListGroup.Item>
                                 <ListGroup.Item>XML</ListGroup.Item>
                                 <ListGroup.Item>JDBC</ListGroup.Item>

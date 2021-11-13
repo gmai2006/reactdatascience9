@@ -22,7 +22,7 @@ const NavigationBar = () => {
                     DataScience9
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
-                    <Navbar.Collapse id='responsive-navbar-nav' alignRight>
+                    <Navbar.Collapse id='responsive-navbar-nav'>
                         <Nav className='nav ml-auto'>
                             <Nav.Link as={NavLink} to='/home' activeStyle={{
                                 color: '#3483DE'
@@ -166,7 +166,7 @@ const NavigationBar = () => {
                                     Enterprise Software Solution
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Products" id="dropdownButton" alignRight>
+                            <NavDropdown title="Products" id="dropdownButton" >
                                 <NavDropdown.Item id='dropdown-item' as={NavLink} to='/products/microservices' 
                                     style={{
                                         fontFamily: "'Open Sans', sans-serif",
@@ -189,12 +189,12 @@ const NavigationBar = () => {
                             <Nav.Link as={NavLink} to='/contact' activeStyle={{
                                 color: '#3483DE'
                             }} onClick={() => setExpanded(false)}>Contact</Nav.Link>
-                            <Nav.Link as={NavLink} to='/blogs' activeStyle={{
+                            {/* <Nav.Link as={NavLink} to='/blogs' activeStyle={{
                                 color: '#3483DE'
                             }} onClick={() => setExpanded(false)}>Blogs</Nav.Link>
                             <Nav.Link as={NavLink} to='/editor' activeStyle={{
                                 color: '#3483DE'
-                            }} onClick={() => setExpanded(false)}>Editor</Nav.Link>
+                            }} onClick={() => setExpanded(false)}>Editor</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

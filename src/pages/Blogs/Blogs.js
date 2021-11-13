@@ -9,7 +9,7 @@ const Blogs = () => {
     return (
         <React.Fragment>
             <Container className='mt-5'>
-                <CardColumns>
+ 
                     <Card>
                         <Card.Img variant="top" src={MaiImage} />
                         <Card.Body>
@@ -77,7 +77,7 @@ const Blogs = () => {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                </CardColumns>
+           
             </Container>
         </React.Fragment>
     )
