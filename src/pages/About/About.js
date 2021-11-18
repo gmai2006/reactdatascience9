@@ -75,7 +75,7 @@ const About = () => {
           <Card className="portfolio-card">
             <Card.Img src={baya} />
             <Card.Body>
-              <Card.Link href="#">Ahmed Intern 2021</Card.Link>
+              <Card.Link href="#">Ahmed Elmi Intern 2021</Card.Link>
               <Card.Text>Modernize a JEE application to Single Page Application using React</Card.Text>
             </Card.Body>
           </Card>
