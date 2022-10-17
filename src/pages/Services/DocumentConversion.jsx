@@ -6,7 +6,7 @@ import documentConversionImage from '../../assets/images/word-conversion.png';
 
 const DocumentConversion = () => {
     return (
-        <React.Fragment>
+        <>
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
@@ -60,7 +60,7 @@ const DocumentConversion = () => {
                     </Col>
                 </Row>
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

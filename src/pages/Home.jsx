@@ -4,10 +4,10 @@ import ServicesCard from '../components/Cards';
 
 const Home = () => {
     return (
-        <React.Fragment>
+        <>
             <Slider />
             <ServicesCard />
-        </React.Fragment>
+        </>
     )
 }
 

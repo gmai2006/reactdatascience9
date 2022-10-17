@@ -9,7 +9,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <React.Fragment>
+    <>
       <Container>
         <Navbar expand="lg" className="nav ml-auto">
           <Nav className="header-link">
@@ -35,7 +35,7 @@ const Header = () => {
           </Nav>
         </Navbar>
       </Container>
-    </React.Fragment>
+    </>
   );
 };
 

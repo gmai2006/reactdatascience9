@@ -22,7 +22,7 @@ import EditorTable from './pages/Editor/Editor';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <>
       <Router>
         <Header />
         <NavigationBar />
@@ -43,7 +43,7 @@ const App = () => {
           </Switch>
           <Footer />
       </Router>
-    </React.Fragment>
+    </>
   )
 }
 

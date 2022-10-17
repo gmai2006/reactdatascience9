@@ -17,7 +17,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
-    <React.Fragment>
+    <>
       <Container className="mt-5">
         <Row>
           <Col xs={7}>
@@ -91,7 +91,7 @@ const About = () => {
           </Card>
         </CardGroup>
       </Container>
-    </React.Fragment>
+    </>
   );
 };
 

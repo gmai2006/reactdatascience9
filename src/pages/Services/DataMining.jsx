@@ -4,7 +4,7 @@ import './style.css';
 
 const DataMining = () => {
     return (
-        <React.Fragment>
+        <>
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
@@ -49,7 +49,7 @@ const DataMining = () => {
                     </Col>
                 </Row>
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

@@ -20,7 +20,7 @@ import { faAngular } from "@fortawesome/free-brands-svg-icons";
 
 const ServicesCard = () => {
   return (
-    <React.Fragment>
+    <>
       <h1 className="services-header text-center">Our Services</h1>
       <p className="line font-weight-bold text-center">_________</p>
       <Container className="mt-5 mb-5">
@@ -36,7 +36,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faFile}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-10px"}}
                 />
               </span>
             </Card.Header>
@@ -74,7 +74,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faExchangeAlt}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-12px" }}
                 />
               </span>
             </Card.Header>
@@ -112,7 +112,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faDatabase}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-12px" }}
                 />
               </span>
             </Card.Header>
@@ -150,7 +150,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faAngular}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-16px" }}
                 />
               </span>
             </Card.Header>
@@ -188,7 +188,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faSyncAlt}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-16px" }}
                 />
               </span>
             </Card.Header>
@@ -223,7 +223,7 @@ const ServicesCard = () => {
                 <FontAwesomeIcon
                   icon={faLightbulb}
                   size="2x"
-                  style={{ color: "white" }}
+                  style={{ color: "white", marginRight: "-10px" }}
                 />
               </span>
             </Card.Header>
@@ -251,7 +251,7 @@ const ServicesCard = () => {
           </Card>
         </CardGroup>
       </Container>
-    </React.Fragment>
+    </>
   );
 };
 

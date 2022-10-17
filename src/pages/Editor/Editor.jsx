@@ -4,11 +4,11 @@ import EditorTable from '../../components/Editor';
 
 const EditorConverter = () => {
     return (
-        <React.Fragment>
+        <>
             <Container>
                 <EditorTable />
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

@@ -10,7 +10,7 @@ import locationImage from "../../assets/images/location.png";
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <>
       <Container className="mt-5">
         <Row>
           <Col xs={7}>
@@ -39,7 +39,7 @@ const Contact = () => {
       </Container>
 
       
-    </React.Fragment>
+    </>
   );
 };
 

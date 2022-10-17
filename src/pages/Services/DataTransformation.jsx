@@ -4,7 +4,7 @@ import './style.css';
 
 const DataTransformation = () => {
     return (
-        <React.Fragment>
+        <>
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
@@ -45,7 +45,7 @@ const DataTransformation = () => {
                     </Col>
                 </Row>
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

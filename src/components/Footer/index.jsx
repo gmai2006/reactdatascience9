@@ -14,7 +14,7 @@ const Footer = () => {
         window.scrollTo(0, 0);
     }, [pathname]);
     return (
-        <React.Fragment>
+        <>
             <div className='footer'>
                 <Container>
                     <Row>
@@ -53,7 +53,7 @@ const Footer = () => {
                     </Row>
                 </Container>
             </div>
-		</React.Fragment>
+		</>
     )
 }
 

@@ -8,7 +8,7 @@ import navbarLogo from '../../assets/images/logos/favicon-32x32.png';
 const NavigationBar = () => {
     const [expanded, setExpanded] = useState(false);
     return (
-        <React.Fragment>
+        <>
             <Container>
                 <Navbar collapseOnSelect expanded={expanded} expand='lg' id='navigationBar' sticky='top'>
                 <Navbar.Brand href='#home'>
@@ -199,7 +199,7 @@ const NavigationBar = () => {
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

@@ -4,7 +4,7 @@ import './style.css';
 
 const WebDevelopment = () => {
     return (
-        <React.Fragment>
+        <>
             <Container className='mt-5'>
                 <Row>
                     <Col xs={8}>
@@ -50,7 +50,7 @@ const WebDevelopment = () => {
                     </Col>
                 </Row>
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

@@ -11,7 +11,7 @@ import censeoImage from "../../assets/images/portfolio/censeo.png";
 
 const Portfolio = () => {
   return (
-    <React.Fragment>
+    <>
       <Container>
         <h3 className="portfolio-header mt-4 mb-3">Web Development</h3>
         <CardGroup>
@@ -70,7 +70,7 @@ const Portfolio = () => {
         </CardGroup>
       </Container>
       
-    </React.Fragment>
+    </>
   );
 };
 

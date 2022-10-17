@@ -7,7 +7,7 @@ import WebberImage from '../../assets/images/people/WardWebber.jpg';
 
 const Blogs = () => {
     return (
-        <React.Fragment>
+        <>
             <Container className='mt-5'>
  
                     <Card>
@@ -79,7 +79,7 @@ const Blogs = () => {
                     </Card>
            
             </Container>
-        </React.Fragment>
+        </>
     )
 }
 

@@ -6,7 +6,7 @@ import carouselBackground from '../../assets/images/header-bg.jpg';
 
 const Slider = () => {
     return (
-        <React.Fragment>
+        <>
             <Carousel className='slider'>
                 <Carousel.Item>
                     <img
@@ -44,7 +44,7 @@ const Slider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </React.Fragment>
+        </>
     )
 }
 
