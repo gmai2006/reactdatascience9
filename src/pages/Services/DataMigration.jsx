@@ -37,7 +37,7 @@ const DataMigration = () => {
                                     In this project, we ran our auto-generated tool against the drupal database schema.
                                     The result is a fully functional back-end with a React pages in the UI. The generated application is published in the GitHub.
                                     &nbsp; &nbsp; <a href='https://github.com/gmai2006/drupaltest' >
-                                        A generated web application from a legacy PowerBuilder application</a>
+                                        A generated web application from a Drupal database schema</a>
                                 </Card.Text>
                                 <Card.Text className='services-text'>
                                     This generated web application can run in any standard servlet container
@@ -52,7 +52,7 @@ const DataMigration = () => {
                                     In this project, we ran our auto-generated tool against the Sport database schema.
                                     The result is a fully functional back-end with a React pages in the UI. The generated application is published in the GitHub.
                                     &nbsp; &nbsp; <a href='https://github.com/gmai2006/sportsdbtest' >
-                                        A generated web application from a legacy PowerBuilder application</a>
+                                        A generated web application from the Sport DB schema</a>
                                 </Card.Text>
                                 <Card.Text className='services-text'>
                                     This generated web application can run in any standard servlet container
@@ -67,7 +67,7 @@ const DataMigration = () => {
                                     In this project, we ran our auto-generated tool against the Magento database schema.
                                     The result is a fully functional back-end with a React pages in the UI. The generated application is published in the GitHub.
                                     &nbsp; &nbsp; <a href='https://github.com/gmai2006/magentotest' >
-                                        A generated web application from a legacy PowerBuilder application</a>
+                                        A generated web application from the Magento DB schema</a>
                                 </Card.Text>
                                 <Card.Text className='services-text'>
                                     This generated web application can run in any standard servlet container

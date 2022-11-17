@@ -48,7 +48,7 @@ const Footer = () => {
                     <Row>
                        
                         <div className='copyright ml-auto'>
-                            <span>© Copyright 2021 DataScience9 All Rights Reserved</span>
+                            <span>© Copyright 2022 DataScience9 All Rights Reserved</span>
                         </div>
                     </Row>
                 </Container>

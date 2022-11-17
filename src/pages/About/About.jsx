@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import puzzleImage from "../../assets/images/puzzle.png";
 
 import mai from "../../assets/images/people/mai.png";
-import baya from "../../assets/images/people/baya.jpg";
+import baya from "../../assets/images/people/AhmedElmi.jpg";
 import ward from "../../assets/images/people/wardwebber.png";
 
 import "./style.css";
@@ -67,8 +67,9 @@ const About = () => {
               <Card.Link href="https://www.linkedin.com/in/maidung/">
                 Paul Mai
               </Card.Link>
-              <Card.Text>CTO, developer
-                  Architect, design, and develop legacy application modernization and auto generated applications from the users logics
+              <Card.Text>
+                Principle Investigator and Developer<br/>
+                Research, design and develop a multiphase framework that modernizes legacy applications and automatically generates applications from the users logics and the specifications
               </Card.Text>
             </Card.Body>
           </Card>
@@ -84,7 +85,7 @@ const About = () => {
             <Card.Body>
               <Card.Link href="#">Ward Webber Consultant</Card.Link>
               <Card.Text>
-              Function Analyst and Technical Writer
+              Function Analyst and Technical Writer<br/>
               Provide software funtional analysis, testing, and technical writing per projects
               </Card.Text>
             </Card.Body>

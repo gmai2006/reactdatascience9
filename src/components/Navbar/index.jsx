@@ -11,7 +11,7 @@ const NavigationBar = () => {
         <>
             <Container>
                 <Navbar collapseOnSelect expanded={expanded} expand='lg' id='navigationBar' sticky='top'>
-                <Navbar.Brand href='#home'>
+                <Navbar.Brand href='/'>
                     <img
                         alt=''
                         src={navbarLogo}
@@ -24,7 +24,7 @@ const NavigationBar = () => {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
                     <Navbar.Collapse id='responsive-navbar-nav'>
                         <Nav className='nav ml-auto'>
-                            <Nav.Link as={NavLink} to='/home' activeStyle={{
+                            <Nav.Link as={NavLink} to='/' activeStyle={{
                                 color: '#3483DE'
                             }} onClick={() => setExpanded(false)}>Home</Nav.Link>
                             <Nav.Link as={NavLink} to='/about' activeStyle={{

@@ -27,7 +27,6 @@ const App = () => {
         <Header />
         <NavigationBar />
           <Switch>
-            <Route path='/home' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/services/datamining' component={DataMining} />
             <Route path='/services/datamigration' component={DataMigration} />
@@ -40,6 +39,7 @@ const App = () => {
             <Route path='/contact' component={Contact} />
             <Route path='/blogs' component={Blogs} />
             <Route path='/editor' component={EditorTable} />
+            <Route path='/' component={Home} />
           </Switch>
           <Footer />
       </Router>

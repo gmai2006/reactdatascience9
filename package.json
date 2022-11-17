@@ -1,9 +1,9 @@
 {
-  "homepage": "/home",
+  "homepage": "/",
   "author": "Paul",
   "description": "Datascience9 LLC",
   "copyright": "Copyright 2021 Datascience9 LLC",
-  "name": "reactdatascience9",
+  "name": "datascience9",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
