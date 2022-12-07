@@ -17,8 +17,8 @@ const NavigationBar = () => {
                         src={navbarLogo}
                         width='30'
                         height='30'
-                        className='d-inline-block align-top'
-                    />{' '}
+                        className='d-inline-block align-top mb-2'
+                    />{''}
                     DataScience9
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded(expanded ? false : 'expanded')}/>
