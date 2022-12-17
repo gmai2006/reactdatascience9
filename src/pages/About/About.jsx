@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import puzzleImage from "../../assets/images/puzzle.png";
 
 import mai from "../../assets/images/people/mai.png";
-import baya from "../../assets/images/people/AhmedElmi.jpg";
+import baya from "../../assets/images/people/ahmedE.png";
 import ward from "../../assets/images/people/wardwebber.png";
 
 import "./style.css";
@@ -76,7 +76,7 @@ const About = () => {
           <Card className="portfolio-card">
             <Card.Img src={baya} />
             <Card.Body>
-              <Card.Link href="#">Ahmed Elmi Intern 2021</Card.Link>
+              <Card.Link href="https://www.linkedin.com/in/ahmed-elmi-179a07199/">Ahmed Elmi Intern 2021</Card.Link>
               <Card.Text>Modernize a JEE application to Single Page Application using React</Card.Text>
             </Card.Body>
           </Card>
