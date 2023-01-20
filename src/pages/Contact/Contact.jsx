@@ -11,10 +11,10 @@ import locationImage from "../../assets/images/location.png";
 const Contact = () => {
   return (
     <>
-      <Container className="mt-5">
+      <Container className="mt-5" id="p">
         <Row>
           <Col xs={7}>
-            <Container>
+            <Container className="ad">
                 <h1>Address</h1>
               <Card id="card">
                
@@ -32,8 +32,8 @@ const Contact = () => {
               </Card>
             </Container>
           </Col>
-          <Col xs={5}>
-            <Image src={locationImage} className="img-fluid mb-5" />
+          <Col xs={6}id="i" >
+            <Image src={locationImage} className="img-fluid mb-5"  />
           </Col>
         </Row>
       </Container>

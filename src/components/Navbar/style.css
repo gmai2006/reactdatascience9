@@ -1,69 +1,71 @@
 #navigationBar {
-    background-color: white;
-    margin-bottom: 15px;
+  background-color: white;
+  margin-bottom: 15px;
 }
 
 #navigationBar .nav a {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 20px;
-    color: #000000B3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #000000b3;
 }
 
 #navigationBar .nav a:hover {
-    color: #0056b3;
-    text-decoration: none;
+  color: #0056b3;
+  text-decoration: none;
 }
 
 #navigationBar .nav a:focus {
-    color: #3483DE;
-    text-decoration: none;
+  color: #3483de;
+  text-decoration: none;
 }
 
 #dropdown-basic {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    text-transform: uppercase;
-    line-height: 18px;
-    color: #000000B3;
-    text-decoration: none;
-    padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #000000b3;
+
+  text-decoration: none;
+  padding-bottom: 15px;
 }
 
 #dropdown-basic:hover {
-    color: #0056B3;
-    text-decoration: none;
+  color: #0056b3;
+  text-decoration: none;
 }
 
 #dropdown-basic:focus {
-    color: #3483DE;
-    text-decoration: none;
+  color: #3483de;
+  text-decoration: none;
 }
 
 #dropdown-basic:active {
-    color: #0056B3;
+  color: #0056b3;
 }
 
 #dropdownButton .dropdown-menu {
-    border-style: none;
+  border-style: none;
+
+  background-color: whitesmoke;
 }
 
 #dropdownButton .dropdown-menu a {
-    font-family: 'Open Sans', sans-serif ;
-    font-weight: 400;
-    font-size: 13.6px;
-    color: #A1B1BC;
-    text-transform: capitalize;
-    background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13.6px;
+  /* color: #A1B1BC; */
+  text-transform: capitalize;
+  background-color: transparent;
 }
 
 #dropdownButton .dropdown-menu a:hover {
-    color: #3483DE;
+  color: #3483de;
 }
-
 
 /* #navigationBar .nav #dropdownButton a {
     color: black;

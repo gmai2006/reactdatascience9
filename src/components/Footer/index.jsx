@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <>
             <div className='footer'>
-                <Container>
+                <Container  id="content-wrap">
                     <Row>
                         <Col xs={4}>
                             <Nav className="nav-text flex-column mr-5">
@@ -51,6 +51,7 @@ const Footer = () => {
                             <span>© Copyright 2022 DataScience9 All Rights Reserved</span>
                         </div>
                     </Row>
+                   
                 </Container>
             </div>
 		</>

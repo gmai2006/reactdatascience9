@@ -2,7 +2,16 @@
     background-color: #222;
     font-size: 14px;
     padding: 40px 0px 30px;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+    
+   
 }
+
+
 
 .nav-text a {
     color: #FFFFFFCC;
@@ -13,8 +22,9 @@
 }
 
 .sticky-footer {
-  position: relative;
+  position: sticky;
   background-color: #000000;
+  /* top: 100%; */
   isolation: isolate;
   padding: 20px 0px 15px;
 }

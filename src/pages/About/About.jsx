@@ -18,27 +18,27 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
   return (
     <>
-      <Container className="mt-5">
+      <Container className="mt-5"  >
         <Row>
           <Col xs={7}>
             <Container className="text-center">
               <Card id="card" className="text-center" border="primary">
-                <Card.Header className="cardHeader mb-3">
-                  <span className="fa-layers fa-fw">
+                <Card.Header className="cardHeader mb-5">
+                  <span className="fa-layers fa-fw" id="aboutTeam" >
                     <FontAwesomeIcon
                       icon={faCircle}
                       size="5x"
-                      style={{ color: "#3483DE", marginRight: "-40px" }}
+                      style={{ color: "#3483DE", marginRight: "-20px" }}
                     />
                     <FontAwesomeIcon
                       icon={faUser}
                       size="2x"
-                      style={{ color: "white" }}
+                      style={{ color: "white",marginLeft:"-14px" }}
                     />
                   </span>
                 </Card.Header>
                 <Card.Body>
-                  <Card.Title className="card-title mb-3">About Us</Card.Title>
+                  <Card.Title className="card-title mb-4" >About Us</Card.Title>
                   <Card.Text className="card-text">
                     We are a specialized software transformation and automation
                     firm. Recognizing advantages and disadvantages from the
@@ -92,6 +92,7 @@ const About = () => {
           </Card>
         </CardGroup>
       </Container>
+      <br></br>
     </>
   );
 };

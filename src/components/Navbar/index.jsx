@@ -37,6 +37,7 @@ const NavigationBar = () => {
                                 <Dropdown.Menu>
                                     <Dropdown.Item as={NavLink} to='/services/datamining' activeStyle={{ 
                                     color: '#3483DE'
+                                        
                                 }}
                                     onClick={() => setExpanded(false)}>Data Mining</Dropdown.Item>
                                     <Dropdown.Item as={NavLink} to='/services/datamigration' activeStyle={{ 
