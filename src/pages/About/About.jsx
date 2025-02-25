@@ -76,8 +76,8 @@ const About = () => {
           <Card className="portfolio-card">
             <Card.Img src={baya} />
             <Card.Body>
-              <Card.Link href="https://www.linkedin.com/in/ahmed-elmi-179a07199/">Ahmed Elmi Intern 2021</Card.Link>
-              <Card.Text>Modernize a JEE application to Single Page Application using React</Card.Text>
+              <Card.Link href="https://www.linkedin.com/in/ahmed-elmi-179a07199/">Ahmed Elmi </Card.Link>
+              <Card.Text>Junior Developer with experience in both frontend and backend development. Uses React.js to build responsive and dynamic user interfaces, while also handling backend tasks like API integration and database management.</Card.Text>
             </Card.Body>
           </Card>
           <Card className="portfolio-card">
